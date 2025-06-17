@@ -1,0 +1,1 @@
+export const formatFieldToHeader = (field:string) => field.charAt(0).toUpperCase() + field.replace(/_/g," ").slice(1);
